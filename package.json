@@ -1,0 +1,20 @@
+{
+  "name": "trabajoiii",
+  "version": "1.0.0",
+  "description": "Pagina de Comida",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.html",
+    "dev": "nodemon index.html"
+  },
+  "keywords": [
+    "servidor",
+    "web",
+    "node"
+  ],
+  "author": "taira",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
