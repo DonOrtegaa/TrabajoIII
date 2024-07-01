@@ -31,6 +31,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .navi a{
@@ -71,4 +72,72 @@ body{
 footer{
     position: absolute;
     bottom: 0;
+    padding: 2px;
+    text-align: center;
+    clear: both;
+}
+
+.footer .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 15px 0px;
+}
+
+.footer .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo1 .box figure img{
+    width: 250px;
+
+}
+
+.footer .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.footer .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.footer .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo1 .red-social a:hover{
+    color: aqua;
+}
+
+.footer .grupo2 small{
+    font-size: 15px;
+   color: #fff;
+}
+
+@media screen and (max-width:800px){
+    .footer .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
 }
