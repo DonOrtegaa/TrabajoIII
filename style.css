@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
