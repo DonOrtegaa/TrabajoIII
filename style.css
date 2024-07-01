@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .wrapper{
@@ -24,6 +25,11 @@ body{
 .footer{
     width: 100%;
     background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 2px;
+    text-align: center;
+    clear: both;
 }
 
 .footer .grupo1{
@@ -33,7 +39,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
-    padding: 45px 0px;
+    padding: 15px 0px;
 }
 
 .footer .grupo1 .box figure{
@@ -79,6 +85,7 @@ body{
 
 .footer .grupo2 small{
     font-size: 15px;
+   color: #fff;
 }
 
 @media screen and (max-width:800px){
