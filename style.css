@@ -2,7 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poopins", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background: #9e8f7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
 }
 
 body{
@@ -11,16 +33,41 @@ body{
     align-items: center;
 }
 
+.navi a{
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
 .wrapper{
     position: relative;
     width: 400px;
     height: 440px;
-    border: 2px solid #000000;
+    border: 2px solid #5f5a4d;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.wrapper .contact-box{
+    width: 100%;
+    padding: 40px;
+}
+.contact-box h1{
+    font-size: 20px;
+    text-align: left;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #5f5a4d;
+    margin: 30px 0;
+}
 footer{
     position: absolute;
     bottom: 0;
