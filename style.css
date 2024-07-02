@@ -24,7 +24,7 @@ body{
 
 .footer{
     width: 100%;
-    background-color: black;
+    background-color: #0d2033;
     position: absolute;
     bottom: 0;
     padding: 2px;
@@ -36,7 +36,7 @@ body{
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 15px 0px;
@@ -52,18 +52,18 @@ body{
 
 .footer .grupo1 .box figure img{
     width: 250px;
-
 }
+
 
 .footer .grupo1 .box h2{
     color: #fff;
     margin-bottom: 10px;
-
+    font-size: 20px;
 }
 
 .footer .grupo1 .box p{
     color: #efefef;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 .footer .grupo1 .red-social a{
@@ -82,10 +82,15 @@ body{
 .footer .grupo1 .red-social a:hover{
     color: aqua;
 }
-
+.footer .grupo2{
+    background-color: #0a1a2a;
+    padding:  15px 10px;
+    text-align: center;
+    color: #fff;
+}
 .footer .grupo2 small{
     font-size: 15px;
-   color: #fff;
+   
 }
 
 @media screen and (max-width:800px){
