@@ -1,8 +1,35 @@
 .textos p {
     text-align: center;
     font-style: italic;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
+.textos h1 {
+    margin-left: 20px;
+}
 .textos h2 {
     text-align: center;
+    padding: 15px;
+    
+}
+
+.textos {
+    padding-top: 10em;
+    padding-bottom: 20rem;
+}
+
+.restaurante {
+    width: 400px;
+    display: block;
+    margin-top: 20px;
+    float: none;
+    clear: both;
+}
+
+.imagen {
+    display: block;
+    margin-top: 20px;
+    float: none;
+    clear: both;
 }
