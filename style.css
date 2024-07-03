@@ -37,6 +37,11 @@ body{
 .main {
     padding-top: 10em;
     padding-bottom: 15rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .navi a{
     position: relative;
@@ -95,10 +100,81 @@ body{
     font-size: 15px;
 }
 
-.enviar {
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: black;
-    padding-top: 20px;
+.imagen img{
+    width: 500px;
+
 }
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos para el título */
+ h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 700;
+
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #e3ded1;
+    color: #4f493f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 40px;
+  }
+  
+  button:hover {
+    background-color: #4f493f;
+    color: #e3ded1;
+  }
+  
+  
+
+  /* Estilos para el título de sección */
+  h2 {
+    color: #666;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+  }
+  body {
+    text-align: center
+  }
+  /* Estilos para el contenedor de navegación */
+  .nav-container {
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .nav-container a {
+    margin: 200 px;
+    color: #fff;
+  }
+  
+  .nav-container a:hover {
+    color: #ccc;
+  }
