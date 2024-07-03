@@ -6,7 +6,7 @@
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,12 +28,16 @@ header {
 }
 
 body{
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 150px;
 }
-
+.main {
+    padding-top: 10em;
+    padding-bottom: 15rem;
+}
 .navi a{
     position: relative;
     font-size: 14px;
@@ -56,7 +60,7 @@ body{
 }
 .wrapper .contact-box{
     width: 100%;
-    background-color: #0d2033;
+    background-color: #ffffff;
     padding: 40px;
 }
 .contact-box h1{
