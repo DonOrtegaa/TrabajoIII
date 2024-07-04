@@ -106,7 +106,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    bottom: 20px;
+    
 }
 .img-galeria{ 
     width: 30%;
