@@ -169,3 +169,8 @@ body {
     width: 100%;
     font-weight: 400;
 }
+
+.main {
+    padding-top: 10em;
+    padding-bottom: 15rem;
+}
